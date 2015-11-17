@@ -10,16 +10,6 @@ package hhssadventure;
  */
 public class Location {
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    Scanner txtInput;
+
 }

@@ -2,6 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package hhssadventure;
 
 /**
@@ -11,16 +12,11 @@ package hhssadventure;
 public class Scene {
     private int direction;
     
-    
     public boolean frontBlocked( ){
         
     }
     
     public boolean nextLocation( ){
-        
-    }
-    
-    public boolean frontBlocked( ){
         
     }
     
