@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Scene{
     private int direction;
    
+    public void getScene(){
         try
     {
           FileReader file = new FileReader("file.txt");
@@ -26,18 +27,9 @@ public class Scene{
      {
           e.printStackTrace();
      }
-    
-    public boolean frontBlocked( ){
-        
-    }
-    
-    public boolean nextLocation( ){
-        
     }
     
     public boolean frontBlocked( ){
         
-    }
-    
-    
+    }   
 }
