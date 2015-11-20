@@ -14,29 +14,36 @@ import java.util.Scanner;
  */
 public class Scene{
     private int direction;
-   
-    public void getScene(){
-        try
-    {
-          FileReader file = new FileReader("file.txt");
-          Scanner s = new Scanner(file);
-          while(s.hasNext())
-          {
-             System.out.println(s.nextInt());
-          }
-     }catch(Exception e)
-     {
-          e.printStackTrace();
-     }
+    private Scene[] Scenes;
+    //constructor 
+    public Scene(Scanner input){
+        
     }
     
     public boolean frontBlocked( ){
-    
-    public boolean frontBlocked( ){
-        
+        //if the third part in the line is true
+        //if its blocked
+        //if(^ == true){
+        //return true;
+        //}
+    //else{
+        //if not blocked
+        //return false;
+        //}
     }
     
     public boolean nextLocation( ){
-        
-    }   
+        //
+    }
+    
+    public int getDirection(){
+        //give the direction youre currently in
+        //get the first letter in the file somehow
+        return this.direction;
+    }
+    
+    public void nextDirection(){
+        //the fifth part of the line in the picture
+    }
+    
 }
