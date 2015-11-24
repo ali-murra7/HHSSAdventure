@@ -17,24 +17,50 @@ public class Scene{
     private Scene[] Scenes;
     //constructor 
     public Scene(Scanner input){
+        FileReader file = null;
+        try {
+            file = new FileReader("images/pics.txt");
+        } catch (Exception e) {
+            //prints out error message
+            e.printStackTrace();
+            //stops the program
+            System.exit(0);
+    } 
+    
+    public void getScene(){
+        FileReader file = null;
+        try {
+            file = new FileReader("images/pics.txt");
+        } catch (Exception e) {
+            //prints out error message
+            e.printStackTrace();
+            //stops the program
+            System.exit(0);
+        }
+        
+        //getting the scene
+        Scanner scene = new Scanner(file);
+        for (int i = 0; i < 4; i++) {
+            scenes[i] = scene.next();
+        }
+        
+        
         
     }
     
+    
+    
     public boolean frontBlocked( ){
-        //if the third part in the line is true
-        //if its blocked
-        //if(^ == true){
-        //return true;
-        //}
-    //else{
-        //if not blocked
-        //return false;
-        //}
+
     }
+    
+    
     
     public boolean nextLocation( ){
         //
     }
+    
+    
     
     public int getDirection(){
         //give the direction youre currently in
