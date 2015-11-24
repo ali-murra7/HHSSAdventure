@@ -15,7 +15,8 @@ public class Location {
     //constructor
     public Location(){
     //pass in the direction to use
-}
+        
+    }
     
     //pass in something for the parameters as per the photo
     //not sure if void

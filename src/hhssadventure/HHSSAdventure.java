@@ -36,7 +36,7 @@ public class HHSSAdventure {
         }
 
         //creates a scanner to read the file
-        Scanner input = new Scanner(file);
+        //Scanner input = new Scanner(file);
 
         //keep scanning as long as theres something to scan
         //left blank to fill in later
