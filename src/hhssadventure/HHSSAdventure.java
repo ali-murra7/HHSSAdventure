@@ -27,7 +27,7 @@ public class HHSSAdventure {
        //used to help read a file
         FileReader file = null;
         try {
-            file = new FileReader("pics/pics.txt");
+            file = new FileReader("images/pics.txt");
         } catch (Exception e) {
             //prints out error message
             e.printStackTrace();

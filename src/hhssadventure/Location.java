@@ -10,10 +10,12 @@ package hhssadventure;
  */
 public class Location {
     //private variables
-    //private String sceneName;    
+    private String sceneName;    
     //private Location[] Location;
+    
     //constructor
     public Location(){
+        
     //pass in the direction to use
         
     }
@@ -34,5 +36,6 @@ public class Location {
     
     public void getNextDirection(){
         //get the next direction it will move to
+        
     }
 }
